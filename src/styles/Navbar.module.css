@@ -1,0 +1,28 @@
+.container {
+    border: 1px solid red;
+    display: flex;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.container h1 {
+    margin: 15px;
+}
+
+.subContainer {
+    display: flex;
+    width: 150px;
+    margin: 130px;
+}
+
+.subContainer li{
+    list-style-type: none;
+}
+
+.subContainer a {
+    margin-right: 15px;
+    text-decoration: none;
+}

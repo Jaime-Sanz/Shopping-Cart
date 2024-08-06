@@ -1,15 +1,34 @@
 .container {
-    border: 1px solid red;
     display: flex;
-    height: 100px;
+    height: 80px;
     margin: auto;
     align-items: center;
-    justify-content: space-between;
-    background-color: green;
+    justify-content: flex-end;
+    background: rgb(2, 2, 10);
 }
 
 .container h1 {
     margin: 15px;
+}
+
+.titleContainer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background: radial-gradient(circle, rgba(2,0,36,1) 4%, rgba(29,40,50,1) 83%, rgba(21,29,82,1) 100%);
+}
+
+.titleContainer img {
+    width: 25%;
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
 }
 
 .subContainer {

@@ -4,7 +4,10 @@ import styles from '../styles/Navbar.module.css';
 const Navbar = () => {
     return ( 
         <div className={styles.container}>
-            <h1>PlaceHolder Title</h1>
+            <div className={styles.titleContainer}>
+                <img src="./assets/images/logo.png" alt="Picture of Logo"/>
+                <h1>Trendy Treasures</h1>
+            </div>
             <div className={styles.subContainer}>
                 <li>
                     <Link to="/">Home</Link>

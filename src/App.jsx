@@ -1,10 +1,10 @@
 import React from 'react';
-import './styles/index.css' 
+import './styles/index.css'
+import styles from './styles/App.module.css'; 
 
 const App = () => {
     return (
-      <div>
-        <h1>Welcome To The Homepage!</h1>
+      <div className={styles.container}>
       </div>
     );
   };

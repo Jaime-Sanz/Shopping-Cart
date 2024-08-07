@@ -1,0 +1,8 @@
+.cartButton {
+    width: 60px;
+    border-radius: 5%;
+}
+
+.cartButton img{
+    width: 50px;
+}   

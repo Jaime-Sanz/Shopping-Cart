@@ -1,7 +1,14 @@
+import styles from "../styles/Shopping.module.css";
+
 const Shopping = () => {
     return (
-      <div>
-        <h1>Hello from shopping page!</h1>
+      <div className={styles.container}>
+        <div className={styles.sideBar}>
+
+        </div>
+        <div className={styles.shoppingContainer}>
+          
+        </div>
       </div>
     );
   };

@@ -1,8 +1,16 @@
 .cartButton {
-    width: 60px;
-    border-radius: 5%;
+    width: 55px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 3%;
+    background-color: black;
+    border: 2px solid white;
 }
 
 .cartButton img{
-    width: 50px;
-}   
+    width: 30px;
+}
+
+.cartButton:hover {
+    background-color: rgb(233, 158, 245);
+}

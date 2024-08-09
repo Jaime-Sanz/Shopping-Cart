@@ -1,4 +1,4 @@
-import logo from '/public/assets/images/shoppingcart.png';
+import logo from '../assets/images/shoppingcart.png';
 import styles from '../styles/Cart.module.css';
 
 const Cart = () => {

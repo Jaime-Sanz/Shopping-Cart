@@ -1,7 +1,59 @@
 .container {
     display: flex;
+    width: 100%;
+    height: 100vh;
 }
 
 .sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    background-color: rgba(237, 234, 234, 0.877);
+    border-right: 2px solid black;
+}
 
+.headers {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(218, 214, 214);
+    align-self: center;
+    height: auto;
+    border: 1px solid black;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+    list-style: none;
+    justify-content: center;
+    margin: 10px;
+}
+
+.categories img {
+    width: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.categories button {
+    text-align: start;
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+    background-color: transparent;
+}
+
+.categories button:hover {
+    background-color: rgb(233, 158, 245);
+}
+
+.resetButton {
+    align-self: center;
+    margin-top: 20px;
+    width: 75%;
+    height: 35px;
+    font-size: 1em;
 }

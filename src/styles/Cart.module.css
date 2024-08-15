@@ -1,20 +1,2 @@
-.cartButton {
-    width: 130px;
-    height: 35px;
-    font-size: 1em;
-    margin-top: 20px
-}
 
-.cartButton img {
-    width: 20px;
-    vertical-align: middle;
-}
 
-.cartButton:hover {
-    background-color: rgb(233, 158, 245);
-}
-
-.cartContainer {
-    width: 200px;
-    background-color: black;
-}

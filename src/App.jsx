@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/index.css'
 import styles from './styles/App.module.css'; 
+import { Link } from 'react-router-dom';
 
 const App = () => {
     return (
@@ -8,8 +9,7 @@ const App = () => {
         <div className={styles.centerImage}>
           Find Your Treasure
           <div className={styles.menuButtons}>
-            <button>Shop Women</button>
-            <button>Shop Men</button>
+            <Link to="shop"><button>SHOP NOW</button></Link>
           </div>
         </div>
         <div className={styles.boxContainer}>

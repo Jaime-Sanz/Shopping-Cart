@@ -17,7 +17,7 @@
 
 .titleContainer img {
     width: 5%;
-    background: whitesmoke;
+    background: rgb(233, 158, 245);
     border: 1px solid black;
     border-radius: 5%;
     margin: 2px;
@@ -25,22 +25,24 @@
 
 .subContainer {
     display: flex;
-    margin: 110px;
+    margin: 115px;
     justify-content: center;
     align-items: center;
 }
 
-.subContainer li{
-    list-style-type: none;
-}
 
 .subContainer a {
-    margin-right: 15px;
-    color: whitesmoke;
+    color: black;
     font-size: 1.5em;
     text-decoration: none;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 2%;
+    width: 100px;
+    text-align: center;
 }
 
 .subContainer a:hover {
-    color: rgb(233, 158, 245);
+    color: black;
+    background-color: rgb(233, 158, 245);
 }
